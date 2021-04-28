@@ -1,0 +1,55 @@
+﻿body {
+    background: #34495e;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+
+
+    #menu ul li {
+        background-color: #CD0953;
+        border: solid 3px #D57700;
+        width: 180px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        float: left;
+        position: center;
+        border-radius: 20px;
+    }
+
+        #menu ul li a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+        }
+
+            #menu ul li a:hover {
+                background-color: #00D5B1;
+                color: #fff;
+                border-radius: 20px;
+            }
+
+    #menu ul ul {
+        position: absolute;
+        display: none;
+    }
+
+#subm {
+    position: absolute;
+    display: none;
+}
+
+#menu ul li > ul li {
+    background-color: #CD0953;
+    color: white;
+    border: solid 3px #D57700;
+    border-radius: 30px;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+    border-radius: 10px;
+}

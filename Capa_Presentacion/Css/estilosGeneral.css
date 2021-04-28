@@ -1,0 +1,131 @@
+﻿body {
+    background: #34495e;
+}
+#tbl {
+    width:730px;
+    border:0px;
+}
+
+th, td{
+    padding:10px;
+}
+#container {
+    width: 700px;
+    margin: 10px auto;
+}
+#containerEmp {
+    width: 900px;
+    margin: 10px auto;
+}
+h1 {
+    font: bold 32px Times;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.mGrid {
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    font-weight:bold;
+}
+
+    .mGrid td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+        color: #717171;
+    }
+
+    .mGrid th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #424242 url(grd_head.png) repeat-x top;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+    }
+
+    .mGrid .alt {
+        background: #fcfcfc url(grd_alt.png) repeat-x top;
+    }
+
+    .mGrid .pgr {
+        background: #424242 url(grd_pgr.png) repeat-x top;
+    }
+
+        .mGrid .pgr table {
+            margin: 5px 0;
+        }
+
+        .mGrid .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #D57700;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .mGrid .pgr a {
+            color: #D57700;
+            text-decoration: none;
+        }
+
+            .mGrid .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+
+.txtTabla{
+    width:100%;
+    border:0px;
+    height:30px;
+}
+
+.btnTabla {
+    border-radius: 12px;
+    cursor: pointer;
+    color: DimGray;
+    background-color: white;
+    font-weight:bold;
+    width:100%;
+}
+    .btnTabla:hover {
+        background-color: #CD0953;
+        color: white;
+    }
+
+#tbl td {
+    text-align: right;
+}
+
+.lnkGrid {
+    border-radius: 7px;
+    background-color: #CD0953;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+    .lnkGrid:hover {
+        background-color: #D57700;
+        color: white;
+    }
+
+
+
+
+.btnPermiso {
+    border-radius: 8px;
+    cursor: pointer;
+    color: DimGray;
+    background-color: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+    .btnPermiso:hover {
+        background-color: darkred;
+        color: white;
+    }
